@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSBTI 人格测试</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header class="header">
+            <h1>DSBTI 人格测试</h1>
+            <span class="subtitle-h">dsbti.fun</span>
+        </header>
+
+        <div id="start-screen" class="screen active">
+            <div class="start-card">
+                <p class="big-text">MBTI、SBTI都已经过时了，DSBTI来了。</p>
+                <div class="start-illustration">
+                    <span class="big-emoji">🤪</span>
+                </div>
+                <button id="start-btn" class="start-btn">开始测试</button>
+                <p class="warning">全选完才会放行。世界已经够乱了，起码把题做完整。</p>
+            </div>
+        </div>
+
+        <div id="question-screen" class="screen">
+            <div class="question-card">
+                <div class="progress-info">
+                    <span id="current-q">0</span> / <span id="total-q">15</span>
+                </div>
+                <div class="progress-track">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <h2 id="question-text" class="question-text"></h2>
+                <div id="options-container" class="options-container"></div>
+            </div>
+        </div>
+
+        <div id="result-screen" class="screen">
+            <div class="result-card">
+                <div class="type-illustration">
+                    <p class="your-type">你的人格类型是：</p>
+                    <h2 class="type-name" id="type-name"></h2>
+                    <p class="type-code" id="type-code"></p>
+                    <div class="character-img" id="character-img"></div>
+                    <p class="type-slogan" id="type-slogan"></p>
+                </div>
+
+                <div class="result-section">
+                    <h3>你的主类型</h3>
+                    <p class="main-type" id="main-type"></p>
+                    <div class="match-badge">
+                        <span id="match-rate"></span> · 精准命中 <span id="dimension-hit"></span>/15 维
+                    </div>
+                    <p class="match-desc">维度命中度较高，当前结果可视为你的第一人格画像。</p>
+                </div>
+
+                <div class="result-section">
+                    <h3>该人格的简单解读</h3>
+                    <div class="interpretation" id="interpretation"></div>
+                </div>
+
+                <div class="result-section">
+                    <h3>十五维度评分</h3>
+                    <div class="dimensions" id="dimensions"></div>
+                </div>
+
+                <div class="result-section">
+                    <h3>友情提示</h3>
+                    <p class="disclaimer-text">本测试仅供娱乐，别拿它当诊断、面试、相亲、分手、招魂、算命或人生判决书。</p>
+                </div>
+
+                <div class="result-section author-note">
+                    <h3>作者的话</h3>
+                    <p>本测试纯属恶搞，初衷是想看看人能有多离谱。</p>
+                    <p>由于作者的人格是DSBT作死小能手，所以平等的攻击了各位，在此抱歉！！不过我是一个绝世大帅哥，你们一定会原谅我。</p>
+                    <p>关于这个测试，我没法很好的平衡娱乐和专业性，因此对于一些人格的阐释较为模糊或完全不准（如有冒犯非常抱歉！！）</p>
+                    <p>再鉴于时间精力有限，就随便搞了一个先这样玩玩，后续会慢慢完善修改的，总之好玩为主，还请不要用于盈利呀。</p>
+                </div>
+
+                <div class="action-buttons">
+                    <button id="restart-btn" class="action-btn">再测一次</button>
+                    <button id="share-btn" class="action-btn secondary">分享给朋友</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
