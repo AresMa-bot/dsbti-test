@@ -146,38 +146,38 @@ const questions = [
 ];
 
 const personalityTypes = [
-    { type: "DSBT", name: "作死小能手", code: "DSBT", slogan: "不作死就不会死，但不试试怎么知道？", img: "low poly cartoon character, mischievous expression", interpretation: ["恭喜你！你测出了DSBTI中的究极搞事王——【DSBT 作死小能手】！", "这种人格的人总能在最平静的湖面上激起千层浪。", "你告诉他前面是火坑，他不仅要跳，还要在空中转体720度再跳！", "这种人格是朋友们的快乐源泉！"], matchRate: 96 },
-    { type: "DSTB", name: "杠精祖师爷", code: "DSTB", slogan: "你说的都对，但我觉得不对", img: "low poly cartoon character, skeptical expression", interpretation: ["哇塞！你测出了DSBTI中的杠精界的扛把子——【DSTB 杠精祖师爷】！", "这种人格能从任何一句话里找到杠点！", "你说今天天气真好，他能跟你杠全球变暖！", "这种人格虽然杠，但也很聪明！"], matchRate: 94 },
-    { type: "DBST", name: "社交牛逼症晚期", code: "DBST", slogan: "只要我不尴尬，尴尬的就是别人", img: "low poly cartoon character, big smile", interpretation: ["牛逼！你测出了DSBTI中的社交天花板——【DBST 社交牛逼症晚期】！", "这种人格能和任何人都能聊得热火朝天！", "冷场？不存在的！", "这种人格是天生的气氛组！"], matchRate: 97 },
-    { type: "DTBS", name: "咸鱼王中王", code: "DTBS", slogan: "躺平即正义，咸鱼也有梦想", img: "low poly cartoon character, relaxed expression", interpretation: ["恭喜恭喜！你测出了DSBTI中的人生赢家——【DTBS 咸鱼王中王】！", "这种人格的人生信条是：能坐着绝不站着，能躺着绝不坐着！", "这种人格看透了内卷的本质，选择了躺平！", "这种人格虽然看起来咸鱼，但往往活得比谁都通透！"], matchRate: 93 },
-    { type: "SDBT", name: "戏精本精", code: "SDBT", slogan: "人生如戏，全靠演技", img: "low poly cartoon character, dramatic expression", interpretation: ["我的天呐！你测出了DSBTI中的奥斯卡影帝/影后——【SDBT 戏精本精】！", "这种人格内心戏比谁都多！", "这种人格不去写小说、不去当演员真的可惜了！", "建议你们赶紧动笔/出道！"], matchRate: 95 },
-    { type: "SDTB", name: "吐槽界的天花板", code: "SDTB", slogan: "我不是针对谁，我是说在座的各位都是...", img: "low poly cartoon character, smirking expression", interpretation: ["牛逼克拉斯！你测出了DSBTI中的吐槽之王——【SDTB 吐槽界的天花板】！", "这种人格吐槽精准到位，一针见血！", "这种人格虽然嘴毒，但往往三观很正！", "不过建议你们说话前先数3秒，不然容易挨打！"], matchRate: 92 },
-    { type: "SBTD", name: "选择困难症癌晚期", code: "SBTD", slogan: "今天吃什么？这个问题我能想一辈子", img: "low poly cartoon character, confused expression", interpretation: ["我的妈呀！你测出了DSBTI中的纠结之王——【SBTD 选择困难症癌晚期】！", "这种人格能把任何一个简单的选择变成世纪难题！", "点外卖能点一个小时，买衣服能纠结一个星期！", "建议你们下次用抛硬币吧！"], matchRate: 94 },
-    { type: "STBD", name: "瓜田守护者", code: "STBD", slogan: "哪里有瓜，哪里就有我", img: "low poly cartoon character, curious expression", interpretation: ["我去！你测出了DSBTI中的瓜田守护者——【STBD 瓜田守护者】！", "这种人格有一种神奇的第六感，哪里有瓜哪里就有他们！", "朋友吵架，他们第一时间到场；明星八卦，他们第一时间知道！", "建议你们开个瓜号吧！"], matchRate: 91 },
-    { type: "BTSD", name: "神经病院院长", code: "BTSD", slogan: "大脑里住着一群疯子", img: "low poly cartoon character, crazy expression", interpretation: ["我的天！你测出了DSBTI中的疯癫之王——【BTSD 神经病院院长】！", "这种人格的大脑里住着一整个马戏团！", "正常人无法理解他们的脑回路，但又觉得很有意思！", "跟这种人做朋友，生活永远不会无聊！"], matchRate: 95 },
-    { type: "BDST", name: "摸鱼大师", code: "BDST", slogan: "上班摸鱼，下班吃鸡", img: "low poly cartoon character, sly expression", interpretation: ["牛批！你测出了DSBTI中的摸鱼之王——【BDST 摸鱼大师】！", "这种人格能在老板眼皮子底下完美摸鱼！", "上班8小时，7小时59分都在摸鱼，但工作还能完成！", "这种人不去当间谍真的可惜了！"], matchRate: 93 },
-    { type: "BT SD", name: "干饭王中王", code: "BTSD", slogan: "干饭不积极，思想有问题", img: "low poly cartoon character, eating expression", interpretation: ["恭喜！你测出了DSBTI中的干饭天花板——【BT SD 干饭王中王】！", "这种人格的人生信条是：民以食为天！", "一顿饭能吃三碗米饭，还能再吃两盘菜！", "跟这种人一起吃饭，永远不用担心会剩饭！"], matchRate: 96 },
-    { type: "BDTS", name: "中二病晚期", code: "BDTS", slogan: "错的不是我，是这个世界", img: "low poly cartoon character,中二 expression", interpretation: ["我的天呐！你测出了DSBTI中的二次元之王——【BDTS 中二病晚期】！", "这种人格经常会在脑子里幻想各种动漫场景！", "错的不是我，是这个世界！是世界的错！", "这种人虽然中二，但往往很有想象力！"], matchRate: 92 },
-    { type: "TSBD", name: "路痴中的战斗机", code: "TSBD", slogan: "出门全靠导航，还能走错", img: "low poly cartoon character, lost expression", interpretation: ["哇塞！你测出了DSBTI中的迷路之王——【TSBD 路痴中的战斗机】！", "这种人格能在自己家小区迷路！", "开着导航还能走错路，也是一种天赋！", "建议这种人出门带个GPS定位手环！"], matchRate: 94 },
-    { type: "TSDB", name: "健忘症患者", code: "TSDB", slogan: "转头就忘了，我刚才要干嘛来着", img: "low poly cartoon character, forgetful expression", interpretation: ["我的妈呀！你测出了DSBTI中的失忆之王——【TSDB 健忘症患者】！", "这种人格能在5分钟内忘记自己要干嘛！", "转头就忘了自己要说什么，也是没谁了！", "建议这种人随身带个小本子！"], matchRate: 91 },
-    { type: "TB SD", name: "自恋狂中的王者", code: "TB SD", slogan: "老子天下第一帅/美", img: "low poly cartoon character, narcissistic expression", interpretation: ["我去！你测出了DSBTI中的自恋之王——【TB SD 自恋狂中的王者】！", "这种人格每天都被自己帅/美醒！", "一天能照800次镜子，还嫌不够！", "跟这种人做朋友，你会学会什么叫自信！"], matchRate: 95 },
-    { type: "TBSD", name: "腹黑小王子/小公主", code: "TBSD", slogan: "白切黑了解一下", img: "low poly cartoon character, sinister expression", interpretation: ["牛批！你测出了DSBTI中的腹黑之王——【TBSD 腹黑小王子/小公主】！", "这种人格看起来人畜无害，实则一肚子坏水！", "白切黑了解一下？表面小白兔，内心大灰狼！", "跟这种人做朋友，要小心被卖了还帮着数钱！"], matchRate: 93 },
-    { type: "SD TB", name: "拖延症癌晚期", code: "SD TB", slogan: "明天再做吧，今天先玩", img: "low poly cartoon character, lazy expression", interpretation: ["恭喜！你测出了DSBTI中的拖延之王——【SD TB 拖延症癌晚期】！", "这种人格能把今天的事拖到明天，明天的事拖到后天！", "不到最后一刻绝不开始，也是一种天赋！", "建议这种人把闹钟调快两个小时！"], matchRate: 96 },
-    { type: "SB DT", name: "月光族中的贵族", code: "SB DT", slogan: "钱不是攒出来的，是花出来的", img: "low poly cartoon character, shopping expression", interpretation: ["我的天呐！你测出了DSBTI中的花钱之王——【SB DT 月光族中的贵族】！", "这种人格的工资到账当天就能花完！", "钱不是攒出来的，是花出来的！花完再赚！", "建议这种人把工资卡交给爸妈保管！"], matchRate: 92 },
-    { type: "ST DB", name: "熬夜冠军", code: "ST DB", slogan: "夜太美，尽管再危险", img: "low poly cartoon character, tired expression", interpretation: ["哇塞！你测出了DSBTI中的熬夜之王——【ST DB 熬夜冠军】！", "这种人格能从晚上12点熬到早上6点！", "夜太美，尽管再危险，总有人黑着眼眶熬着夜！", "建议这种人多喝点枸杞茶！"], matchRate: 94 },
-    { type: "S TBD", name: "起床困难户", code: "S TBD", slogan: "床以外的地方都是远方", img: "low poly cartoon character, sleepy expression", interpretation: ["我的妈呀！你测出了DSBTI中的赖床之王——【S TBD 起床困难户】！", "这种人格能在床上躺一天，连饭都不想起来吃！", "床以外的地方都是远方，手够不到的地方都是他乡！", "建议这种人把闹钟放在客厅！"], matchRate: 91 },
-    { type: "D SBT", name: "话痨中的战斗机", code: "D SBT", slogan: "我一开口，就没别人什么事了", img: "low poly cartoon character, talking expression", interpretation: ["我去！你测出了DSBTI中的话痨之王——【D SBT 话痨中的战斗机】！", "这种人格能一个人说三个小时不带停的！", "我一开口，就没别人什么事了！", "跟这种人做朋友，你只需要负责听就行！"], matchRate: 95 },
-    { type: "D STB", name: "社恐十级患者", code: "D STB", slogan: "别跟我说话，我害怕", img: "low poly cartoon character, shy expression", interpretation: ["牛批！你测出了DSBTI中的社恐之王——【D STB 社恐十级患者】！", "这种人格能在网上聊得热火朝天，见面却不敢说话！", "别跟我说话，我害怕！让我一个人待着！", "建议这种人多跟话痨做朋友！"], matchRate: 93 },
-    { type: "D BST", name: "强迫症晚期", code: "D BST", slogan: "不整齐我浑身难受", img: "low poly cartoon character, neat expression", interpretation: ["恭喜！你测出了DSBTI中的强迫之王——【D BST 强迫症晚期】！", "这种人格看到不整齐的东西就浑身难受！", "不整齐我浑身难受！必须摆整齐！", "跟这种人做朋友，你的房间会永远整整齐齐！"], matchRate: 96 },
-    { type: "D TBS", name: "选择困难症癌晚晚期", code: "D TBS", slogan: "这个也想要，那个也想要", img: "low poly cartoon character, very confused expression", interpretation: ["我的天呐！你测出了DSBTI中的纠结之王王——【D TBS 选择困难症癌晚晚期】！", "这种人格能在两个选项之间纠结一天！", "这个也想要，那个也想要，到底选哪个啊！", "建议这种人以后只买固定的东西！"], matchRate: 92 },
-    { type: "B DST", name: "干饭机器", code: "B DST", slogan: "没有什么是一顿饭解决不了的", img: "low poly cartoon character, very hungry expression", interpretation: ["哇塞！你测出了DSBTI中的干饭之王王——【B DST 干饭机器】！", "这种人格一天能吃五顿饭，还能再吃零食！", "没有什么是一顿饭解决不了的，如果有，就两顿！", "跟这种人做朋友，你会发现很多好吃的！"], matchRate: 94 },
-    { type: "B DTS", name: "睡神在世", code: "B DTS", slogan: "天大地大，睡觉最大", img: "low poly cartoon character, sleeping expression", interpretation: ["我的妈呀！你测出了DSBTI中的睡觉之王——【B DTS 睡神在世】！", "这种人格能睡24小时不带醒的！", "天大地大，睡觉最大！谁也别想打扰我睡觉！", "跟这种人做朋友，你会学会什么叫能睡！"], matchRate: 91 },
-    { type: "B SDT", name: "网购达人", code: "B SDT", slogan: "买买买，剁手也要买", img: "low poly cartoon character, shopping spree expression", interpretation: ["我去！你测出了DSBTI中的网购之王——【B SDT 网购达人】！", "这种人格的购物车永远是满的！", "买买买，剁手也要买！不买不舒服！", "建议这种人把淘宝卸载了！"], matchRate: 95 },
-    { type: "B STD", name: "游戏狂魔", code: "B STD", slogan: "游戏就是我的生命", img: "low poly cartoon character, gaming expression", interpretation: ["牛批！你测出了DSBTI中的游戏之王——【B STD 游戏狂魔】！", "这种人格能打游戏打一天一夜不带停的！", "游戏就是我的生命！谁也别想阻止我打游戏！", "跟这种人做朋友，你会学会各种游戏！"], matchRate: 93 },
-    { type: "T DSB", name: "吸猫达人", code: "T DSB", slogan: "一日吸猫，终身想猫", img: "low poly cartoon character, cat lover expression", interpretation: ["恭喜！你测出了DSBTI中的吸猫之王——【T DSB 吸猫达人】！", "这种人格看到猫就走不动道！", "一日吸猫，终身想猫！猫就是我的命根子！", "跟这种人做朋友，你会看到很多猫的照片！"], matchRate: 96 },
-    { type: "T DBS", name: "狗狗爱好者", code: "T DBS", slogan: "狗狗是人类最好的朋友", img: "low poly cartoon character, dog lover expression", interpretation: ["我的天呐！你测出了DSBTI中的爱狗之王——【T DBS 狗狗爱好者】！", "这种人格看到狗就想上去摸！", "狗狗是人类最好的朋友！我要养10只狗！", "跟这种人做朋友，你会看到很多狗的照片！"], matchRate: 92 },
-    { type: "T SDB", name: "奶茶续命者", code: "T SDB", slogan: "一天不喝奶茶，浑身难受", img: "low poly cartoon character, bubble tea expression", interpretation: ["哇塞！你测出了DSBTI中的奶茶之王——【T SDB 奶茶续命者】！", "这种人格一天能喝三杯奶茶！", "一天不喝奶茶，浑身难受！奶茶就是我的生命！", "跟这种人做朋友，你会发现很多好喝的奶茶！"], matchRate: 94 },
-    { type: "T SBD", name: "火锅爱好者", code: "T SBD", slogan: "没有什么是一顿火锅解决不了的", img: "low poly cartoon character, hot pot expression", interpretation: ["我的妈呀！你测出了DSBTI中的火锅之王——【T SBD 火锅爱好者】！", "这种人格一周能吃五次火锅！", "没有什么是一顿火锅解决不了的，如果有，就两顿！", "跟这种人做朋友，你会发现很多好吃的火锅！"], matchRate: 91 }
+    { type: "DSBT", name: "作死小能手", code: "DSBT", slogan: "不作死就不会死，但不试试怎么知道？", emoji: "🤪", interpretation: ["恭喜你！你测出了DSBTI中的究极搞事王——【DSBT 作死小能手】！", "这种人格的人总能在最平静的湖面上激起千层浪。", "你告诉他前面是火坑，他不仅要跳，还要在空中转体720度再跳！", "这种人格是朋友们的快乐源泉！"], matchRate: 96 },
+    { type: "DSTB", name: "杠精祖师爷", code: "DSTB", slogan: "你说的都对，但我觉得不对", emoji: "😏", interpretation: ["哇塞！你测出了DSBTI中的杠精界的扛把子——【DSTB 杠精祖师爷】！", "这种人格能从任何一句话里找到杠点！", "你说今天天气真好，他能跟你杠全球变暖！", "这种人格虽然杠，但也很聪明！"], matchRate: 94 },
+    { type: "DBST", name: "社交牛逼症晚期", code: "DBST", slogan: "只要我不尴尬，尴尬的就是别人", emoji: "😎", interpretation: ["牛逼！你测出了DSBTI中的社交天花板——【DBST 社交牛逼症晚期】！", "这种人格能和任何人都能聊得热火朝天！", "冷场？不存在的！", "这种人格是天生的气氛组！"], matchRate: 97 },
+    { type: "DTBS", name: "咸鱼王中王", code: "DTBS", slogan: "躺平即正义，咸鱼也有梦想", emoji: "🦥", interpretation: ["恭喜恭喜！你测出了DSBTI中的人生赢家——【DTBS 咸鱼王中王】！", "这种人格的人生信条是：能坐着绝不站着，能躺着绝不坐着！", "这种人格看透了内卷的本质，选择了躺平！", "这种人格虽然看起来咸鱼，但往往活得比谁都通透！"], matchRate: 93 },
+    { type: "SDBT", name: "戏精本精", code: "SDBT", slogan: "人生如戏，全靠演技", emoji: "🎭", interpretation: ["我的天呐！你测出了DSBTI中的奥斯卡影帝/影后——【SDBT 戏精本精】！", "这种人格内心戏比谁都多！", "这种人格不去写小说、不去当演员真的可惜了！", "建议你们赶紧动笔/出道！"], matchRate: 95 },
+    { type: "SDTB", name: "吐槽界的天花板", code: "SDTB", slogan: "我不是针对谁，我是说在座的各位都是...", emoji: "🗣️", interpretation: ["牛逼克拉斯！你测出了DSBTI中的吐槽之王——【SDTB 吐槽界的天花板】！", "这种人格吐槽精准到位，一针见血！", "这种人格虽然嘴毒，但往往三观很正！", "不过建议你们说话前先数3秒，不然容易挨打！"], matchRate: 92 },
+    { type: "SBTD", name: "选择困难症癌晚期", code: "SBTD", slogan: "今天吃什么？这个问题我能想一辈子", emoji: "🤔", interpretation: ["我的妈呀！你测出了DSBTI中的纠结之王——【SBTD 选择困难症癌晚期】！", "这种人格能把任何一个简单的选择变成世纪难题！", "点外卖能点一个小时，买衣服能纠结一个星期！", "建议你们下次用抛硬币吧！"], matchRate: 94 },
+    { type: "STBD", name: "瓜田守护者", code: "STBD", slogan: "哪里有瓜，哪里就有我", emoji: "🍉", interpretation: ["我去！你测出了DSBTI中的瓜田守护者——【STBD 瓜田守护者】！", "这种人格有一种神奇的第六感，哪里有瓜哪里就有他们！", "朋友吵架，他们第一时间到场；明星八卦，他们第一时间知道！", "建议你们开个瓜号吧！"], matchRate: 91 },
+    { type: "BTSD", name: "神经病院院长", code: "BTSD", slogan: "大脑里住着一群疯子", emoji: "🤡", interpretation: ["我的天！你测出了DSBTI中的疯癫之王——【BTSD 神经病院院长】！", "这种人格的大脑里住着一整个马戏团！", "正常人无法理解他们的脑回路，但又觉得很有意思！", "跟这种人做朋友，生活永远不会无聊！"], matchRate: 95 },
+    { type: "BDST", name: "摸鱼大师", code: "BDST", slogan: "上班摸鱼，下班吃鸡", emoji: "🐟", interpretation: ["牛批！你测出了DSBTI中的摸鱼之王——【BDST 摸鱼大师】！", "这种人格能在老板眼皮子底下完美摸鱼！", "上班8小时，7小时59分都在摸鱼，但工作还能完成！", "这种人不去当间谍真的可惜了！"], matchRate: 93 },
+    { type: "BTSD", name: "干饭王中王", code: "BTSD", slogan: "干饭不积极，思想有问题", emoji: "🍚", interpretation: ["恭喜！你测出了DSBTI中的干饭天花板——【BT SD 干饭王中王】！", "这种人格的人生信条是：民以食为天！", "一顿饭能吃三碗米饭，还能再吃两盘菜！", "跟这种人一起吃饭，永远不用担心会剩饭！"], matchRate: 96 },
+    { type: "BDTS", name: "中二病晚期", code: "BDTS", slogan: "错的不是我，是这个世界", emoji: "⚡", interpretation: ["我的天呐！你测出了DSBTI中的二次元之王——【BDTS 中二病晚期】！", "这种人格经常会在脑子里幻想各种动漫场景！", "错的不是我，是这个世界！是世界的错！", "这种人虽然中二，但往往很有想象力！"], matchRate: 92 },
+    { type: "TSBD", name: "路痴中的战斗机", code: "TSBD", slogan: "出门全靠导航，还能走错", emoji: "🧭", interpretation: ["哇塞！你测出了DSBTI中的迷路之王——【TSBD 路痴中的战斗机】！", "这种人格能在自己家小区迷路！", "开着导航还能走错路，也是一种天赋！", "建议这种人出门带个GPS定位手环！"], matchRate: 94 },
+    { type: "TSDB", name: "健忘症患者", code: "TSDB", slogan: "转头就忘了，我刚才要干嘛来着", emoji: "🤯", interpretation: ["我的妈呀！你测出了DSBTI中的失忆之王——【TSDB 健忘症患者】！", "这种人格能在5分钟内忘记自己要干嘛！", "转头就忘了自己要说什么，也是没谁了！", "建议这种人随身带个小本子！"], matchRate: 91 },
+    { type: "TBSD", name: "自恋狂中的王者", code: "TBSD", slogan: "老子天下第一帅/美", emoji: "💅", interpretation: ["我去！你测出了DSBTI中的自恋之王——【TB SD 自恋狂中的王者】！", "这种人格每天都被自己帅/美醒！", "一天能照800次镜子，还嫌不够！", "跟这种人做朋友，你会学会什么叫自信！"], matchRate: 95 },
+    { type: "TBSD", name: "腹黑小王子/小公主", code: "TBSD", slogan: "白切黑了解一下", emoji: "😈", interpretation: ["牛批！你测出了DSBTI中的腹黑之王——【TBSD 腹黑小王子/小公主】！", "这种人格看起来人畜无害，实则一肚子坏水！", "白切黑了解一下？表面小白兔，内心大灰狼！", "跟这种人做朋友，要小心被卖了还帮着数钱！"], matchRate: 93 },
+    { type: "SDTB", name: "拖延症癌晚期", code: "SDTB", slogan: "明天再做吧，今天先玩", emoji: "⏰", interpretation: ["恭喜！你测出了DSBTI中的拖延之王——【SD TB 拖延症癌晚期】！", "这种人格能把今天的事拖到明天，明天的事拖到后天！", "不到最后一刻绝不开始，也是一种天赋！", "建议这种人把闹钟调快两个小时！"], matchRate: 96 },
+    { type: "SBDT", name: "月光族中的贵族", code: "SBDT", slogan: "钱不是攒出来的，是花出来的", emoji: "💸", interpretation: ["我的天呐！你测出了DSBTI中的花钱之王——【SB DT 月光族中的贵族】！", "这种人格的工资到账当天就能花完！", "钱不是攒出来的，是花出来的！花完再赚！", "建议这种人把工资卡交给爸妈保管！"], matchRate: 92 },
+    { type: "STBD", name: "熬夜冠军", code: "STBD", slogan: "夜太美，尽管再危险", emoji: "🌙", interpretation: ["哇塞！你测出了DSBTI中的熬夜之王——【ST DB 熬夜冠军】！", "这种人格能从晚上12点熬到早上6点！", "夜太美，尽管再危险，总有人黑着眼眶熬着夜！", "建议这种人多喝点枸杞茶！"], matchRate: 94 },
+    { type: "SDTB", name: "起床困难户", code: "SDTB", slogan: "床以外的地方都是远方", emoji: "😴", interpretation: ["我的妈呀！你测出了DSBTI中的赖床之王——【S TBD 起床困难户】！", "这种人格能在床上躺一天，连饭都不想起来吃！", "床以外的地方都是远方，手够不到的地方都是他乡！", "建议这种人把闹钟放在客厅！"], matchRate: 91 },
+    { type: "DSBT", name: "话痨中的战斗机", code: "DSBT", slogan: "我一开口，就没别人什么事了", emoji: "🗣️", interpretation: ["我去！你测出了DSBTI中的话痨之王——【D SBT 话痨中的战斗机】！", "这种人格能一个人说三个小时不带停的！", "我一开口，就没别人什么事了！", "跟这种人做朋友，你只需要负责听就行！"], matchRate: 95 },
+    { type: "DSTB", name: "社恐十级患者", code: "DSTB", slogan: "别跟我说话，我害怕", emoji: "🙈", interpretation: ["牛批！你测出了DSBTI中的社恐之王——【D STB 社恐十级患者】！", "这种人格能在网上聊得热火朝天，见面却不敢说话！", "别跟我说话，我害怕！让我一个人待着！", "建议这种人多跟话痨做朋友！"], matchRate: 93 },
+    { type: "DBST", name: "强迫症晚期", code: "DBST", slogan: "不整齐我浑身难受", emoji: "📏", interpretation: ["恭喜！你测出了DSBTI中的强迫之王——【D BST 强迫症晚期】！", "这种人格看到不整齐的东西就浑身难受！", "不整齐我浑身难受！必须摆整齐！", "跟这种人做朋友，你的房间会永远整整齐齐！"], matchRate: 96 },
+    { type: "DTBS", name: "选择困难症癌晚晚期", code: "DTBS", slogan: "这个也想要，那个也想要", emoji: "😵", interpretation: ["我的天呐！你测出了DSBTI中的纠结之王王——【D TBS 选择困难症癌晚晚期】！", "这种人格能在两个选项之间纠结一天！", "这个也想要，那个也想要，到底选哪个啊！", "建议这种人以后只买固定的东西！"], matchRate: 92 },
+    { type: "BDST", name: "干饭机器", code: "BDST", slogan: "没有什么是一顿饭解决不了的", emoji: "🍜", interpretation: ["哇塞！你测出了DSBTI中的干饭之王王——【B DST 干饭机器】！", "这种人格一天能吃五顿饭，还能再吃零食！", "没有什么是一顿饭解决不了的，如果有，就两顿！", "跟这种人做朋友，你会发现很多好吃的！"], matchRate: 94 },
+    { type: "BDTS", name: "睡神在世", code: "BDTS", slogan: "天大地大，睡觉最大", emoji: "🛌", interpretation: ["我的妈呀！你测出了DSBTI中的睡觉之王——【B DTS 睡神在世】！", "这种人格能睡24小时不带醒的！", "天大地大，睡觉最大！谁也别想打扰我睡觉！", "跟这种人做朋友，你会学会什么叫能睡！"], matchRate: 91 },
+    { type: "BSTD", name: "网购达人", code: "BSTD", slogan: "买买买，剁手也要买", emoji: "🛒", interpretation: ["我去！你测出了DSBTI中的网购之王——【B SDT 网购达人】！", "这种人格的购物车永远是满的！", "买买买，剁手也要买！不买不舒服！", "建议这种人把淘宝卸载了！"], matchRate: 95 },
+    { type: "BTSD", name: "游戏狂魔", code: "BTSD", slogan: "游戏就是我的生命", emoji: "🎮", interpretation: ["牛批！你测出了DSBTI中的游戏之王——【B STD 游戏狂魔】！", "这种人格能打游戏打一天一夜不带停的！", "游戏就是我的生命！谁也别想阻止我打游戏！", "跟这种人做朋友，你会学会各种游戏！"], matchRate: 93 },
+    { type: "TDSB", name: "吸猫达人", code: "TDSB", slogan: "一日吸猫，终身想猫", emoji: "🐱", interpretation: ["恭喜！你测出了DSBTI中的吸猫之王——【T DSB 吸猫达人】！", "这种人格看到猫就走不动道！", "一日吸猫，终身想猫！猫就是我的命根子！", "跟这种人做朋友，你会看到很多猫的照片！"], matchRate: 96 },
+    { type: "TDBS", name: "狗狗爱好者", code: "TDBS", slogan: "狗狗是人类最好的朋友", emoji: "🐶", interpretation: ["我的天呐！你测出了DSBTI中的爱狗之王——【T DBS 狗狗爱好者】！", "这种人格看到狗就想上去摸！", "狗狗是人类最好的朋友！我要养10只狗！", "跟这种人做朋友，你会看到很多狗的照片！"], matchRate: 92 },
+    { type: "TSDB", name: "奶茶续命者", code: "TSDB", slogan: "一天不喝奶茶，浑身难受", emoji: "🧋", interpretation: ["哇塞！你测出了DSBTI中的奶茶之王——【T SDB 奶茶续命者】！", "这种人格一天能喝三杯奶茶！", "一天不喝奶茶，浑身难受！奶茶就是我的生命！", "跟这种人做朋友，你会发现很多好喝的奶茶！"], matchRate: 94 },
+    { type: "TSBD", name: "火锅爱好者", code: "TSBD", slogan: "没有什么是一顿火锅解决不了的", emoji: "🍲", interpretation: ["我的妈呀！你测出了DSBTI中的火锅之王——【T SBD 火锅爱好者】！", "这种人格一周能吃五次火锅！", "没有什么是一顿火锅解决不了的，如果有，就两顿！", "跟这种人做朋友，你会发现很多好吃的火锅！"], matchRate: 91 }
 ];
 
 let currentQuestion = 0;
@@ -251,24 +251,48 @@ function selectOption(index) {
 function showResult() {
     showScreen('result-screen');
     
-    var availableIndices = [];
+    var maxScore = Math.max(scores.D, scores.S, scores.B, scores.T);
+    var dominantDimensions = [];
+    if (scores.D === maxScore) dominantDimensions.push('D');
+    if (scores.S === maxScore) dominantDimensions.push('S');
+    if (scores.B === maxScore) dominantDimensions.push('B');
+    if (scores.T === maxScore) dominantDimensions.push('T');
+    
+    var matchingTypes = [];
     for (var i = 0; i < personalityTypes.length; i++) {
-        if (usedPersonalityIndices.indexOf(i) === -1) {
-            availableIndices.push(i);
+        var typeCode = personalityTypes[i].code.replace(/\s/g, '');
+        var matches = false;
+        for (var j = 0; j < dominantDimensions.length; j++) {
+            if (typeCode.indexOf(dominantDimensions[j]) !== -1) {
+                matches = true;
+                break;
+            }
+        }
+        if (matches && usedPersonalityIndices.indexOf(i) === -1) {
+            matchingTypes.push(i);
         }
     }
     
-    if (availableIndices.length === 0) {
-        usedPersonalityIndices = [];
-        availableIndices = [];
+    if (matchingTypes.length === 0) {
+        matchingTypes = [];
         for (var i = 0; i < personalityTypes.length; i++) {
-            availableIndices.push(i);
+            if (usedPersonalityIndices.indexOf(i) === -1) {
+                matchingTypes.push(i);
+            }
         }
     }
     
-    var randomIndex = availableIndices[Math.floor(Math.random() * availableIndices.length)];
-    usedPersonalityIndices.push(randomIndex);
-    var personality = personalityTypes[randomIndex];
+    if (matchingTypes.length === 0) {
+        usedPersonalityIndices = [];
+        matchingTypes = [];
+        for (var i = 0; i < personalityTypes.length; i++) {
+            matchingTypes.push(i);
+        }
+    }
+    
+    var selectedIndex = matchingTypes[Math.floor(Math.random() * matchingTypes.length)];
+    usedPersonalityIndices.push(selectedIndex);
+    var personality = personalityTypes[selectedIndex];
     
     document.getElementById('type-name').textContent = personality.name;
     document.getElementById('type-code').textContent = personality.code;
@@ -280,9 +304,7 @@ function showResult() {
     document.getElementById('dimension-hit').textContent = 10 + Math.floor(Math.random() * 6);
     
     var charImgContainer = document.getElementById('character-img');
-    var imgUrl = 'https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=' + 
-        encodeURIComponent(personality.img) + '&image_size=square';
-    charImgContainer.innerHTML = '<img src="' + imgUrl + '" alt="' + personality.name + '">';
+    charImgContainer.innerHTML = '<div style="width: 200px; height: 200px; border-radius: 50%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; font-size: 80px; color: white; box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);">' + personality.emoji + '</div>';
     
     var interpretationContainer = document.getElementById('interpretation');
     var interpretationHtml = '';
